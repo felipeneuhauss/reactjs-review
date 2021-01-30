@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import JsxHello from "./concepts/JsxHello";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React Hello
         </a>
+        <JsxHello />
       </header>
     </div>
   );
